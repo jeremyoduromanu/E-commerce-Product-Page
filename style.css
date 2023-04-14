@@ -12,3 +12,40 @@
 body{
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+header{
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+}
+
+.sidebar-toggler{
+    margin-right: 1rem;
+}
+
+.navlinks{
+    display: none;
+}
+
+.hd-first{
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons .cart-btn{
+    margin-right: 1rem;
+}
+
+.nav-buttons .cart-btn i{
+    font-size: 1.2rem;
+}
+
+
+.nav-buttons .profile-pic img{
+    width: 2rem;
+}

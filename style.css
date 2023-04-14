@@ -49,3 +49,36 @@ header{
 .nav-buttons .profile-pic img{
     width: 2rem;
 }
+
+#sidebar-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background-color: wheat;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform .5s ease;
+}
+
+.close-btn{
+    padding: 1.5rem;
+}
+
+.close-btn i{
+    font-size: 1.2rem;
+}
+
+.sidebar-links{
+    display: flex;
+    padding: 1.5rem;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar-links a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+}
